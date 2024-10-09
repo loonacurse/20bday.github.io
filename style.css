@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.img-container{
+    text-align: center; 
+    margin-top: 70px;    
+}
+.cecentered-image{
+    width: 80%; 
+    height: auto;
+}
+.invitation-text{
+    margin-top: 50px;
+    text-align: center;
+    color: #c5b9bc;
+    width: 50%;
+}
+.button-container {
+    display: flex;
+    gap: 30px; 
+}
+.button {
+    margin-top: 30px;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#yes-button {
+    background-color: #e9d0db; 
+    color: white;
+}
+
+#no-button {
+    background-color: #e9d0db; 
+    color: white;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+.centered-image-2{
+    width: 50%; 
+    height: auto;
+}
